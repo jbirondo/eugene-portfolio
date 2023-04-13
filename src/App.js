@@ -1,5 +1,12 @@
 import './App.css';
-import com from './images/compleetlysplash.png'
+import synthSplash from './images/synthsplash.jpeg';
+import tdSplash from './images/tdsplash.png';
+import vorSplash from './images/vorappsplash.png';
+import compleetlySplash from './images/compleetlysplash.png';
+import tandemSplash from './images/tandemsplash.png';
+import goodreadsSplash from './images/goodreadssplash.png';
+import about from './images/about.JPG';
+import avatar from './images/avatar.jpg'
 
 function App() {
   return (
@@ -19,7 +26,7 @@ function App() {
 				<div class="top">
 
 						<div id="logo">
-							<span class="image avatar48"><img src="../src/images/banner.jpg" alt="" /></span>
+							<span class="image avatar48"><img src={avatar} alt="" /></span>
 							<h1 id="title">Eugene Birondo</h1>
 							<p>Software Developer</p>
 						</div>
@@ -78,13 +85,13 @@ function App() {
 							<div class="row">
 								<div class="col-4 col-12-mobile">
 									<article class="item">
-										<a target="_blank" href="https://synth-chatbot.herokuapp.com/" class="image fit"><img src="/src/images/synthsplash.jpeg" alt="" /></a>
+										<a target="_blank" href="https://synth-chatbot.herokuapp.com/" class="image fit"><img src={synthSplash} alt="" /></a>
 										<header>
 											<h3>Synth-Bot</h3>
 										</header>
 									</article>
 									<article class="item">
-										<a target="_blank" href="https://jbirondo.github.io/dist/index" class="image fit"><img src="/src/images/tdsplash.png" alt="" /></a>
+										<a target="_blank" href="https://jbirondo.github.io/dist/index" class="image fit"><img src={tdSplash} alt="" /></a>
 										<header>
 											<h3>Canvas Tower Defense</h3>
 										</header>
@@ -92,13 +99,13 @@ function App() {
 								</div>
 								<div class="col-4 col-12-mobile">
 									<article class="item">
-										<a target="_blank" href="https://vordraftapp.herokuapp.com/" class="image fit"><img src="../src/images/vorappsplash.png" alt="" /></a>
+										<a target="_blank" href="https://vordraftapp.herokuapp.com/" class="image fit"><img src={vorSplash} alt="" /></a>
 										<header>
 											<h3>Value Over Replacement <br/>Fantasy Football Draft Aid</h3>
 										</header>
 									</article>
 									<article class="item">
-										<a target="_blank" href="https://compleetly.herokuapp.com/#/" class="image fit"><img src={com} alt="" /></a>
+										<a target="_blank" href="https://compleetly.herokuapp.com/#/" class="image fit"><img src={compleetlySplash} alt="" /></a>
 										<header>
 											<h3>Compleetly</h3>
 										</header>
@@ -106,13 +113,13 @@ function App() {
 								</div>
 								<div class="col-4 col-12-mobile">
 									<article class="item">
-										<a target="_blank" href="https://tandem-trivia-app.herokuapp.com/" class="image fit"><img src="../src/images/tandemsplash.png" alt="" /></a>
+										<a target="_blank" href="https://tandem-trivia-app.herokuapp.com/" class="image fit"><img src={tandemSplash} alt="" /></a>
 										<header>
 											<h3>It Takes Two to Tandem: <br/>The singleplayer trivia game</h3>
 										</header>
 									</article>
 									<article class="item">
-										<a target="_blank" href="https://quiet-shore-31528.herokuapp.com/#/" class="image fit"><img src="../src/images/goodreadssplash.png" alt="" /></a>
+										<a target="_blank" href="https://quiet-shore-31528.herokuapp.com/#/" class="image fit"><img src={goodreadsSplash} alt="" /></a>
 										<header>
 											<h3>BadReads</h3>
 										</header>
@@ -145,7 +152,7 @@ function App() {
 								web development and I am now open to new opportunies to help people achieve their goals with this new skillset.
 							</p>
 
-							<a href="#" class="image featured"><img src="../src/images/about.JPG" alt="" /></a>
+							<a href="#" class="image featured"><img src={about} alt="" /></a>
 
 							<p>Proficient in: Java, Spring, Springboot, Ruby, Ruby on Rails, JavaScript, React, Python, Redux, SQL, mongoDB, Kafka, Docker, GraphQL, Linux, and Unix.
 							<br/>Also proficient in: Taking my dogs to the park, hiking and exploring the outdoors, sous vide and smoking meats.</p>
