@@ -1,5 +1,5 @@
-import logo from './logo.svg';
 import './App.css';
+import com from './images/compleetlysplash.png'
 
 function App() {
   return (
@@ -98,7 +98,7 @@ function App() {
 										</header>
 									</article>
 									<article class="item">
-										<a target="_blank" href="https://compleetly.herokuapp.com/#/" class="image fit"><img src="../src/images/compleetlysplash.png" alt="" /></a>
+										<a target="_blank" href="https://compleetly.herokuapp.com/#/" class="image fit"><img src={com} alt="" /></a>
 										<header>
 											<h3>Compleetly</h3>
 										</header>
