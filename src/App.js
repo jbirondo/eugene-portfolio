@@ -112,7 +112,7 @@ function App() {
 								</div>
 								<div class="col-4 col-12-mobile">
 									<article class="item">
-										<a target="_blank" href="https://tandem-trivia-app.herokuapp.com/" class="image fit"><img src={tandemSplash} alt="" /></a>
+										<a target="_blank" href="https://trivia-app-0h06.onrender.com" class="image fit"><img src={tandemSplash} alt="" /></a>
 										<header>
 											<h3>It Takes Two to Tandem: <br/>The singleplayer trivia game</h3>
 										</header>
