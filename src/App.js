@@ -45,7 +45,7 @@ function App() {
 
 						<ul class="icons">
 							<li><a target="_blank" href="https://angel.co/u/eugene-birondo" class="icon brands fa-angellist"><span class="label">AngelList</span></a></li>
-							<li><a target="_blank" href="https://www.linkedin.com/in/eugene-birondo-702637192/" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+							<li><a target="_blank" href="https://www.linkedin.com/in/eugene-birondo/" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
 							<li><a target="_blank" href="https://github.com/jbirondo" class="icon brands fa-github"><span class="label">Github</span></a></li>
 							<li><a target="_blank" href="mailto: jbirondo@gmail.com" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
 						</ul>
