@@ -104,7 +104,7 @@ function App() {
 										</header>
 									</article>
 									<article class="item">
-										<a target="_blank" href="https://compleetly.herokuapp.com/#/" class="image fit"><img src={compleetlySplash} alt="" /></a>
+										<a target="_blank" href="https://compleetly.onrender.com/" class="image fit"><img src={compleetlySplash} alt="" /></a>
 										<header>
 											<h3>Compleetly</h3>
 										</header>
