@@ -62,7 +62,7 @@ function App() {
 							<header>
 								<h2 class="alt">Hi! I'm <strong>Eugene Birondo</strong> <br/>Software Developer in the SF Bay Area</h2>
 								<p>Early in my career I sought to help those with mental illness develop action plans and problem-solve.<br/> 
-								Now, as a software developer I am looking for new problems to tackle. </p>
+								Now, as a software developer I am looking for new problems to tackle.  </p>
 							</header>
 
 							<footer>
